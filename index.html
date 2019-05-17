@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Grids</title>
+  <style>
+    .wrapper {
+      display: grid;
+      grid-template-columns: 70% 30%;
+      /*
+      grid-column-gap: 1em;
+      grid-row-gap: 1em;
+      */
+      grid-gap: 1em;
+    }
+
+    .wrapper > div {
+      background: #eee;
+      padding: 1em;
+    }
+    .wrapper > div:nth-child(odd) {
+      background: #ddd;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam recusandae, nulla neque animi deserunt aliquid non quibusdam nobis nesciunt reiciendis labore sit nemo, reprehenderit doloremque distinctio officiis officia atque alias. Pariatur mollitia dignissimos dolore quo, suscipit aspernatur consequatur. Mollitia, iure, libero. Error, fuga necessitatibus dolores? Cumque nostrum, id itaque doloribus enim veniam. Adipisci soluta, ratione minus repellat magnam qui expedita blanditiis possimus accusamus eveniet quam animi quasi sint nihil aliquid, exercitationem suscipit veritatis. Repellendus obcaecati consequuntur quod id sapiente dignissimos.
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos similique placeat accusamus hic incidunt tempora qui dolores, facilis omnis at, accusantium, blanditiis animi eaque! Impedit perferendis, repellendus molestias animi alias.
+    </div>
+
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam recusandae, nulla neque animi deserunt aliquid non quibusdam nobis nesciunt reiciendis labore sit nemo, reprehenderit doloremque distinctio officiis officia atque alias. Pariatur mollitia dignissimos dolore quo, suscipit aspernatur consequatur. Mollitia, iure, libero. Error, fuga necessitatibus dolores? Cumque nostrum, id itaque doloribus enim veniam. Adipisci soluta, ratione minus repellat magnam qui expedita blanditiis possimus accusamus eveniet quam animi quasi sint nihil aliquid, exercitationem suscipit veritatis. Repellendus obcaecati consequuntur quod id sapiente dignissimos.
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos similique placeat accusamus hic incidunt tempora qui dolores, facilis omnis at, accusantium, blanditiis animi eaque! Impedit perferendis, repellendus molestias animi alias.
+    </div>
+  </div>
+</body>
+</html>
